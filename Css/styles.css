@@ -1,7 +1,7 @@
 @import './buttons.css';
 
 body {
-    background-color: hsla(106, 93%, 32%, 0.993);
+    background: url(../images/dragon.jpg) center;
     font-family: Arial, Helvetica, sans-serif;
 }
 .wrapper{

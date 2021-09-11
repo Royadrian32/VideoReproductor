@@ -29,7 +29,7 @@
         video.currentTime=video.currentTime - 10
         console.log ('para atras 10 segundos',video.currentTime)
     
-        <!-- tambien se puede usar  video.currentTime-= 10-->
+        //tambien se puede usar  video.currentTime-= 10//
     }
 
     forward.addEventListener('click',handleforward)
@@ -48,12 +48,12 @@
     }
     function handletimeupdate (){
         progress.value = video.currentTime
-        //console.log ('Tiempo actual',video.currentTime)//
+        console.log ('Tiempo actual',video.currentTime)
      }
 
      progress.addEventListener('input',handleinput)
 
      function handleinput(){
-         video.currentTime =progress.value
+         video.currentTime=progress.value
          console.log(progress.value)
      }
